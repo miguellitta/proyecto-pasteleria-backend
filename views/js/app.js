@@ -27,28 +27,6 @@ async function getUser() {
   }
 }
 
-// async function getProducts() {
-//   try {
-//     const response = await axios.get("json/products.json");
-//     products = response.data.pasteleria;
-//     products.forEach((product) => {
-//       document.getElementById("card-list-id").innerHTML += `<div class="card">
-//                 	<div class="card-img-container">
-//                 <img src="${product.imagen}" alt="imagen" />
-//             </div>
-//             <div class="card-title">
-//                 <h2>${product.productos}</h2>
-//                 <p>$${product.precio}</p>
-//             </div>
-//           <button class="btn-card">Comprar</button>  
-//         </div>`;
-//     });
-//   } catch (error) {
-//     console.error(error);
-//   }
-// }
-
-// getProducts();
 
 async function getQuotes() {
     try {
@@ -68,21 +46,7 @@ async function getQuotes() {
     }
 }
 
-//   const quotes = [
-//     [{
-//         q: "No puedo olvidar el sabor de cheesecake, definitivamente lo mejor que probe"
-//     } ],
 
-//     [ {
-//         q: "Los mejores macarons de Argentina, sin duda"
-//     }],
-
-//     [ {
-//         q: "Durante mi estadia probe el red velvet y me hizo recordar a mi infancia"
-//     }]
-// ]
-
-// getQuotes(); Falta encontrar problemassss
 
 getUser();
 
